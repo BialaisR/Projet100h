@@ -17,19 +17,9 @@
 	margin-bottom: 15px;
 	padding: 0;
 }
-#header ul {
-	margin: 0;
- 	padding-top: 13px;
-}
-#header ul li {
-	display: inline;
-	list-style: none;
-	margin: 0;
-	padding: 0 19px;
-}
+
 #header ul li a {
 	color: black;	
-	display: inline-block;
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 13px;
 	font-weight: normal;
@@ -37,9 +27,6 @@
 	padding: 0 0 3px;
 	text-decoration: none;
 	text-transform: uppercase;
-}
-#header ul li a:hover, #header ul li.selected a {
-	color: #6666ff;
 }
 
 body{
