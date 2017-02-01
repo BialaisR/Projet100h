@@ -1,0 +1,17 @@
+.inscrform{
+	width: 30%;
+    margin-top: 12px;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+#signup h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#signup label{
+	font-size: 19px;
+}
