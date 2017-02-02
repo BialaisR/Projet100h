@@ -1,5 +1,5 @@
 .inscrform{
-	width: 30%;
+	width: 85%;
     margin-top: 12px;
 }
 
@@ -13,5 +13,29 @@
 }
 
 #signup label{
+	font-size: 19px;
+}
+
+div.secondform{
+	margin-top: 83px;
+}
+
+.btnvalider{
+	margin-top: 20px;
+}
+
+.file_1{
+	margin: 5px;
+}
+
+.file_2{
+	margin : 5px;
+}
+
+div.secondform h5{
+	color :white;
+}
+
+#signup_plus label,h5{
 	font-size: 19px;
 }

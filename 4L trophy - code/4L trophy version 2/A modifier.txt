@@ -1,0 +1,17 @@
+Style de la navbar et du titre
+
+Mettre le footer sur chaque page
+
+Messages d'erreur
+
+Fonction clic checkbox formulaire inscription
+
+Problème page photos-vidéos (même photos sur les 2 onglets ?)
+
+Donner les liens et références (exemple gifycon)
+
+https://dcrazed.com/html-css3-social-media-buttons/    pour les logos des social media (page contact)
+
+form : type email ?
+
+bouton valider à droite sur les formulaires inscription et contact
