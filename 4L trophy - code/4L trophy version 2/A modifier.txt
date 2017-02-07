@@ -6,8 +6,6 @@ Messages d'erreur
 
 Fonction clic checkbox formulaire inscription
 
-Problème page photos-vidéos (même photos sur les 2 onglets ?)
-
 Donner les liens et références (exemple gifycon)
 
 https://dcrazed.com/html-css3-social-media-buttons/    pour les logos des social media (page contact)
@@ -15,3 +13,9 @@ https://dcrazed.com/html-css3-social-media-buttons/    pour les logos des social
 form : type email ?
 
 bouton valider à droite sur les formulaires inscription et contact
+
+METEO : http://www.accuweather.com/en/free-weather-widgets/current ( citer les sources)
+
+http://www.booked.net/?page=weather_widget_customize&type=28&cityID=18116&cmetric=1&gparams=28 (meteo2)
+
+Calendrier : GOOGLE CALENDAR
