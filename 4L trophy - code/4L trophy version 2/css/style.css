@@ -1,68 +1,29 @@
-#contactform{
-	margin-top: 12px;
+/*----- Genral Classes start ------*/
+
+
+ 
+.wrapper,.copyright {
+	padding: 20px;
+	text-align: center;
 }
-
-#contact_left{
-	border : 3px solid grey;
-	border-radius: 5px;
-	padding : 5px;
+hr{
+	margin: 30px 20px;
+	border-top:2px solid #1C1E26 ;
+	border-bottom:2px solid #38404D;
 }
-
-#contact_right_1{
-	border : 3px solid grey;
-	border-radius: 5px;
-	padding : 5px;
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
 }
-
-#contact_right_2{
-border : 3px solid grey;
-	border-radius: 5px;
-	padding : 5px;
-}
-
-#contactform h1{
-    font-size: 40px;
-    font-weight: bold;
-}
-
-
-#contactform h3{
-	font-weight: bold;
-}
-
-.btn-envoyer{
-	margin-right: 0 auto;
-}
-
-.parent img{
-	height: 100%;
-	width: 100%;
-	padding : 10px;
-}
-
-.parent2 img{
-	height: 80%;
-	width: 80%;
-	padding-left: 40px;
-}
-
-
-#socialmedia{
-	padding-top : 10px;
-}
-
-
-
-/** style pour les SOCIAL MEDIA **/
-
-
 .list-inline li {
 	display: inline-block;
 	padding-right: 5px;
 	padding-left: 5px;
 	margin-bottom: 10px;
 }
+/*---- Genral classes end -------*/
 
+/*Change icons size here*/
 .social-icons .fa {
 	font-size: 1.8em;
 }
@@ -83,6 +44,12 @@ border : 3px solid grey;
 
 .social-icons.icon-circle .fa{ 
 	border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+	border-radius:5px;
+}
+.social-icons.icon-flat .fa{
+	border-radius: 0;
 }
 
 .social-icons .fa:hover, .social-icons .fa:active {
