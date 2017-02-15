@@ -24,7 +24,7 @@ body {
   font-weight: bold;
   text-align: center;
   border-bottom: 1px solid #d5d5d5;
-  color: black; 
+  color: black;
 }
 
 
@@ -94,7 +94,7 @@ body {
 }
 
 #header ul li a {
-  color: black; 
+  color: black;
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 13px;
   font-weight: normal;
@@ -102,4 +102,17 @@ body {
   padding: 0 0 3px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+li a:hover:not(a.active){
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #337ab7;
+}
+
+a.nom{
+  text-decoration: none;
 }
