@@ -1,0 +1,44 @@
+#forumaccueil {
+	margin-top: 20px;
+}
+
+#forumtableau {
+	border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+		border-collapse: collapse;;
+		border-radius: 5px;
+}
+
+th {
+  border: 1px solid black;
+  background-color: #337ab7;
+	color: white;
+  text-align: center;;
+  padding: 8px;
+}
+
+td {
+    border: 1px solid black;
+    background-color: white;
+    text-align: left;
+    padding: 8px;
+}
+
+#creerdiscussion {
+	display: block;
+  border: 1px solid black;
+  background-color: #337ab7;
+  padding: 5px;
+  margin-bottom: 12px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#creerdiscussion a {
+	text-decoration: none;
+	color: white;
+}

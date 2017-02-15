@@ -15,7 +15,7 @@
 
   <link href="css/nav.css" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" href="css/forum.css">
+  <link rel="stylesheet" type="text/css" href="css/newdiscussion.css">
 
 </head>
 
@@ -25,7 +25,7 @@
     <div class="masthead">
 
       <a href="accueil.html" class="nom"><h1 class="text-center">4L TROPHY HEI</h1></a>
-      <nav>
+      <nav class="collapse navbar-collapse">
        <ul class="nav nav-justified">
           <li><a href="accueil.html">Accueil</a></li>
           <li><a href="equipage.html">Equipage</a></li>
@@ -43,48 +43,27 @@
         </ul>
       </nav>
 
-      <section class="row container" id="forumaccueil">
-        <div  class="col-md-3" id="creerdiscussion">
-          <a href="newdiscussion.html"><h5><b>Créer une nouvelle discussion</b></h5></a>
+      <section id="forumnewsujet">
+        <div  class="col-md-3" id="retourforum">
+          <a href="forum.html"><h5><b>Retour forum</b></h5></a>
         </div>
-        <table id="forumtableau">
-          <thead>
-            <tr>
-              <th>Discussions</th>
-              <th>Réponses</th>
-              <th>Dernier message</th>
-            </tr>
-          </thead>
+        <div class="formulairenewsujet">
+          <form class="col-md-12">
+            <div class="form-group">
+              <label for="nom_sujet">Nom du nouveau sujet</label>
+              <input type="text" class="form-control" id="nom_sujet" placeholder="Nom du nouveau sujet">
+            </div>
+            <div class="form-group">
+              <label for="message_sujet">Message</label>
+              <textarea  type="text" class="form-control" id="message_sujet" rows="7" placeholder="Ecrivez ici votre message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-default btn-envoyer">Envoyer</button>
 
-          <tbody>
-            <tr>
-              <td><b>Sujet 1 à propos de blablabla</b> <br> Identifiant</td>
-              <td>7</td>
-              <td><b>Date</b> <br> Identifiant</td>
-            </tr>
-
-            <tr>
-              <td><b>Sujet 2 à propos de blablabla</b> <br>  Identifiant</td>
-              <td>2</td>
-              <td><b>Date</b> <br> Identifiant</td>
-            </tr>
-
-            <tr>
-              <td><b>Sujet 3 à propos de blablabla</b> <br> Identifiant</td>
-              <td>14</td>
-              <td><b>Date</b> <br> Identifiant</td>
-            </tr>
-
-            <tr>
-              <td><b>Sujet 4 à propos de blablabla</b> <br> Identifiant</td>
-              <td>9</td>
-              <td><b>Date</b> <br> Identifiant</td>
-            </tr>
-          </tbody>
-
-
-        </table>
+          </form>
+        </div>
       </section>
+
+
 
  </div>
  </div>
