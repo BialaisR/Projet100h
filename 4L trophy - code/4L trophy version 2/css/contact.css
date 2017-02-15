@@ -2,21 +2,25 @@
 	margin-top: 12px;
 }
 
+section{
+	color: white;
+}
+
 #contact_left{
 	padding : 10px;
-	background-color: #60a7ff;
+	background-color: #3071a9;
 	border-radius: 10px;
 }
 
 #contact_right_1{
-background-color: #60a7ff;
+background-color: #3071a9;
 	padding : 5px;
 	margin-bottom: 8px;
 	border-radius: 10px;
 }
 
 #contact_right_2{
-background-color: #60a7ff;
+background-color: #3071a9;
 	padding : 5px;
 		border-radius: 10px;
 }
@@ -49,6 +53,14 @@ background-color: #60a7ff;
 
 #socialmedia{
 	padding-top : 10px;
+}
+
+.lienfb{
+	color: white;
+}
+
+.lienfb:hover{
+	color: white;
 }
 
 
