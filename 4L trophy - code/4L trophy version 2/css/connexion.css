@@ -34,7 +34,7 @@
 }
 
 #login .checkbox.show:before {
-    content: '\e013';
+    content: '✔';
     color: #3071a9;
     font-size: 17px;
     margin: 1px 0 0 3px;

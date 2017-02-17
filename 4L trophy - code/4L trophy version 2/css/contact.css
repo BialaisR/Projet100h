@@ -57,11 +57,14 @@ background-color: #3071a9;
 
 .lienfb{
 	color: white;
+	font-weight: bold;
+	font-size: 13px;
 }
 
 .lienfb:hover{
 	color: white;
 }
+
 
 
 
