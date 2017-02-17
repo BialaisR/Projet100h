@@ -74,11 +74,16 @@ body {
 }
 
 
-header li a:hover{
+header li a:hover:not(.active){
     background-color: #dddddd;
 }
 
 header li a.active {
+    color: white;
+    background-color: #337ab7;
+}
+
+header li a.active:hover{
     color: white;
     background-color: #337ab7;
 }
