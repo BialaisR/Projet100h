@@ -25,81 +25,84 @@
 
 <body>
 
-  <div class="container">
-    <div class="masthead">
+  <div class="container">  <!-- GRAND DIV  -->
+    <header>
+      <div class="masthead">
 
-      <a href="accueil.html" class="nom"><h1 class="text-center">4L TROPHY HEI</h1></a>
-      <nav>
-       <ul class="nav nav-justified">
-          <li><a href="accueil.html">Accueil</a></li>
-          <li><a href="equipage.html">Equipage</a></li>
-          <li><a href="photos_videos.html">Photos-Vidéos</a></li>
-          <li><a href="forum.html">Forum</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li class="dropdown">
-          <a href="#" class="active dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mon Compte <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="connexion.html">Se connecter</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="inscription.html">S'inscrire</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
+        <a href="accueil.html" class="nom"><h1 class="text-center">4L TROPHY HEI</h1></a>
+        <nav>
+          <ul class="nav nav-justified">
+            <li><a class="active" href="accueil.html">Accueil</a></li>
+            <li><a href="equipage.html">Equipage</a></li>
+            <li><a href="photos_videos.html">Photos-Vidéos</a></li>
+            <li><a href="forum.html">Forum</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mon Compte <span class="caret"></span></a>
+              <ul class="dropdown-menu ">
+                <li><a href="connexion.html">Se connecter</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="inscription.html">S'inscrire</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-      <section id="login">
-    <div class="container">
-      <div class="row">
+    <section id="login">
+      <div class="container">
+        <div class="row">
           <div class="col-xs-12">
-              <div class="form-wrap">
-                <h1>S'identifier</h1>
-                    <form role="form" action="javascript:;" method="post" id="login-form" autocomplete="off">
-                        <div class="form-group">
-                            <label for="email" class="sr-only">Identifiant</label>
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Identifiant">
-                        </div>
-                        <div class="form-group">
-                            <label for="key" class="sr-only">Mot de passe</label>
-                            <input type="password" name="key" id="key" class="form-control" placeholder="Mot de passe">
-                        </div>
-                        <div class="checkbox">
-                            <span class="character-checkbox" onclick="showPassword()"></span>
-                            <span class="label">Afficher le mot de passe</span>
-                        </div>
-                        <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Connexion">
-                    </form>
-                    <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal">Mot de passe oublié ?</a>
-                    <hr>
-              </div>
-        </div>
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
-</section>
+            <div class="form-wrap">
+              <h1>S'identifier</h1>
+              <form role="form" action="javascript:;" method="post" id="login-form" autocomplete="off">
+                <div class="form-group">
+                  <label for="email" class="sr-only">Identifiant</label>
+                  <input type="email" name="email" id="email" class="form-control" placeholder="Identifiant">
+                </div>
+                <div class="form-group">
+                  <label for="key" class="sr-only">Mot de passe</label>
+                  <input type="password" name="key" id="key" class="form-control" placeholder="Mot de passe">
+                </div>
+                <div class="checkbox">
+                  <span class="character-checkbox" onclick="showPassword()"></span>
+                  <span class="label">Afficher le mot de passe</span>
+                </div>
+                <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Connexion">
+              </form>
+              <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal">Mot de passe oublié ?</a>
+              <hr>
+            </div>
+          </div>
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </section>
 
-<div class="modal fade forget-modal" tabindex="-1" role="dialog" aria-labelledby="myForgetModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">
-          <span aria-hidden="true">×</span>
-          <span class="sr-only">Fermer</span>
-        </button>
-        <h4 class="modal-title">Récuperation du mot de passe</h4>
-      </div>
-      <div class="modal-body">
-        <p>Adresse Email :</p>
-        <input type="email" name="recovery-email" id="recovery-email" class="form-control" autocomplete="off">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
-        <button type="button" class="btn btn-custom">Valider</button>
-      </div>
-    </div> <!-- /.modal-content -->
-  </div> <!-- /.modal-dialog -->
-</div> <!-- /.modal -->
+    <div class="modal fade forget-modal" tabindex="-1" role="dialog" aria-labelledby="myForgetModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">×</span>
+              <span class="sr-only">Fermer</span>
+            </button>
+            <h4 class="modal-title">Récuperation du mot de passe</h4>
+          </div>
+          <div class="modal-body">
+            <p>Adresse Email :</p>
+            <input type="email" name="recovery-email" id="recovery-email" class="form-control" autocomplete="off">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
+            <button type="button" class="btn btn-custom">Valider</button>
+          </div>
+        </div> <!-- /.modal-content -->
+      </div> <!-- /.modal-dialog -->
+    </div> <!-- /.modal -->
 
 
- </div>
- </div>
- </body>
- </html>
+  </div>
+</div>
+</body>
+</html>
