@@ -25,3 +25,7 @@ button {
   float: right;
   margin-right: 0px;
 }
+
+button.btn-danger {
+  float: left;
+}
