@@ -1,10 +1,13 @@
+.globalform{
+	background-color: white;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 8px;
+	margin-top : 20px;
+} 
+
 .inscrform{
 	width: 85%;
     margin-top: 12px;
-}
-
-.globalform{
-	background-color: #3071a9;
 }
 
 .form-group {
@@ -28,6 +31,11 @@ div.secondform{
 	margin-top: 20px;
 }
 
+#ckbx{
+	width: 1.1em; 
+	height: 1.1em;
+}
+
 .file_1{
 	margin: 5px;
 }
@@ -36,10 +44,21 @@ div.secondform{
 	margin : 5px;
 }
 
-div.secondform h5{
+/** div.secondform h5{
 	color :white;
-}
+}  **/
 
 #signup_plus label,h5{
 	font-size: 19px;
 }
+
+#valinscr{
+	float: right;
+	width: 12em; 
+	height: 2em;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #1fa67b;
+	color: white;
+}
+

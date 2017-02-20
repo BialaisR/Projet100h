@@ -4,8 +4,6 @@ Mettre le footer sur chaque page
 
 Messages d'erreur
 
-Fonction clic checkbox formulaire inscription
-
 Donner les liens et références (exemple gifycon)
 
 https://dcrazed.com/html-css3-social-media-buttons/    pour les logos des social media (page contact)
@@ -22,6 +20,6 @@ Calendrier : GOOGLE CALENDAR à modifier (style)
 
 METTRE TOUS LES NAVS DANS UN HEADER
 
-DECALAGE Dans la page photos videos
+DECALAGE Dans la page photos videos ET dans beaucoup d'autres pages
 
 IDEE DE COULEUR : CHANGER LE STYLE POUR AVOIR QUELQUE CHOSE DU GENRE PAGE PHOTOS/VIDEOS

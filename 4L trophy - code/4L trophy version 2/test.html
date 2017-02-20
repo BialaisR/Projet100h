@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>CB Hide/Show</title>
+<script type="text/javascript">
+<!--
+function showMe (box) {
+
+    var chboxs = document.getElementsByName("c1");
+    var vis = "none";
+    for(var i=0;i<chboxs.length;i++) { 
+        if(chboxs[i].checked){
+         vis = "block";
+            break;
+        }
+    }
+    document.getElementById(box).style.display = vis;
+
+
+}
+//-->
+</script>
+</head>
+<body>
+<h3 align="center"> This JavaScript shows how to hide divisions </h3>
+
+<div id="div1" style="display:none">
+<table border=1 id="t1">
+<tr>
+<td>i am here!</td>
+</tr>
+</table>
+</div>
+
+<form>
+<input type="checkbox" name="c1" onclick="showMe('div1')">Show Hide Checkbox
+<input type="checkbox" name="c1" onclick="showMe('div1')">Show Hide Checkbox
+<input type="checkbox" name="c1" onclick="showMe('div1')">Show Hide Checkbox
+<input type="checkbox" name="c1" onclick="showMe('div1')">Show Hide Checkbox
+
+
+
+
+</form>
+</body>
+</html>
