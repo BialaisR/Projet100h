@@ -35,6 +35,11 @@ table tr td {
 	border-radius: 0px 5px 0px 0px;
 }
 
-td a {
+.lienforum {
+	color: black;
+}
+
+.lienforum:hover {
+	color: black;
 	text-decoration: none;
 }
