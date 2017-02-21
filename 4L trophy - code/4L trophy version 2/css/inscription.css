@@ -55,7 +55,7 @@ div.secondform{
 }
 
 #valinscr{
-	float: right;
+	text-align: center;
 	width: 12em; 
 	height: 2em;
 	font-size: 20px;
