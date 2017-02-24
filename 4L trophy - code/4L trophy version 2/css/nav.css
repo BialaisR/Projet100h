@@ -116,3 +116,12 @@ a.nom{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+@font-face {
+  font-family: "Capture it Normal";
+  src :url('Capture it.ttf');
+}
+
+.nom {
+  font-family: "Capture it Normal",arial, sans-serif;
+}
