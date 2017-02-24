@@ -1,9 +1,8 @@
 .globalform{
 	background-color: white;
 	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
-	border-radius: 8px;
+	border-radius: 8px 8px 0px 0px;
 	margin-top : 20px;
-	margin-bottom: 20px;
 	padding-bottom: 15px;
 } 
 
@@ -21,12 +20,12 @@
     font-weight: bold;
 }
 
-#signup label{
+#signup label, #signup_plus label{
 	font-size: 19px;
 }
 
 div.secondform{
-	margin-top: 83px;
+	margin-top: 76px;
 }
 
 .btnvalider{
@@ -36,6 +35,12 @@ div.secondform{
 #ckbx{
 	width: 1.1em; 
 	height: 1.1em;
+	cursor:pointer;
+}
+
+#label_ckbx:hover{
+	cursor:pointer;
+
 }
 
 .file_1{
@@ -50,9 +55,11 @@ div.secondform{
 	color :white;
 }  **/
 
-#signup_plus label,h5{
-	font-size: 19px;
+#valdiv{
+	 width: 100%;
+  text-align: center;
 }
+
 
 #valinscr{
 	text-align: center;
@@ -62,5 +69,14 @@ div.secondform{
 	font-weight: bold;
 	background-color:  #3071a9;
 	color: white;
+	 display: inline-block;
+}
+
+.valdform{
+	background-color: white;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 0px 0px 8px 8px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
 }
 
