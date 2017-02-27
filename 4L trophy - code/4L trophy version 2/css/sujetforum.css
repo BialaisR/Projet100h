@@ -29,3 +29,7 @@ button {
 button.btn-danger {
   float: left;
 }
+
+#valdbtn{
+  margin-bottom: 10px;
+}

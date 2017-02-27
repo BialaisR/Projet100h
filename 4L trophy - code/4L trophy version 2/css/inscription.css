@@ -69,14 +69,14 @@ div.secondform{
 	font-weight: bold;
 	background-color:  #3071a9;
 	color: white;
-	 display: inline-block;
+	display: inline-block;
 }
 
 .valdform{
 	background-color: white;
 	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 0px 0px 8px 8px;
-	margin-bottom: 20px;
+	margin-bottom: 20px; 
 	padding-bottom: 15px;
 }
 
