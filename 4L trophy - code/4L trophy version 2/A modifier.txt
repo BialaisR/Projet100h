@@ -18,8 +18,14 @@ http://www.booked.net/?page=weather_widget_customize&type=28&cityID=18116&cmetri
 
 Calendrier : GOOGLE CALENDAR à modifier (style)
 
-METTRE TOUS LES NAVS DANS UN HEADER
-
 DECALAGE Dans la page photos videos ET dans beaucoup d'autres pages
 
 IDEE DE COULEUR : CHANGER LE STYLE POUR AVOIR QUELQUE CHOSE DU GENRE PAGE PHOTOS/VIDEOS
+
+/!\ bug du background /!\
+
+enlever le 2017 pour le titre
+
+couleur blanche --> faire un dégradé
+
+AWS Elastic Beanstalk pour l'hébergeur

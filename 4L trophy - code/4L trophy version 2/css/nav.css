@@ -125,8 +125,8 @@ a.nom{
 
 .nom {
   font-family: "Capture it Normal",arial, sans-serif;
-  color: black;
-  font-size: 60px;
+  color: #c40727;
+  font-size: 80px;
 }
 
 .nom:hover{
