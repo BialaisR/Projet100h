@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/img4L.jpg") ;
+  background-image: url("../images/4lCharles.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 20px;
@@ -9,12 +9,12 @@ body {
 .footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 40px;
+  margin-top: 60px;
   border-top: 1px solid #eee;
 }
 
 .nav-justified {
-  background-color: #eee;
+  background-color: white;
   border-radius: 5px;
 }
 .nav-justified > li > a {

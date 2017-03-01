@@ -3,9 +3,9 @@
 	margin-bottom: 20px;
 }
 
-section{
+/** section{
 	color: #3071a9;
-}
+}  **/
 
 #contact_left{
 	padding : 10px;
@@ -76,7 +76,8 @@ background-color: white;
 }
 
 .lienfb:hover{
-	color: white;
+	font-size: 13.5px;
+	color: #3071a9;
 }
 
 
